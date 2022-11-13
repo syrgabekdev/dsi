@@ -7,4 +7,12 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+
+}
+@mixin cen{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
 }

@@ -1,2 +1,43 @@
 @import "mixin";
 @import "reset";
+
+
+
+#block{
+  .block{
+    @include se;
+    &--nav{
+      h1{
+        font-weight: 500;
+        font-size: 32px;
+        color:#1F2E35;
+        margin-bottom: 20px;
+        span{
+          font-weight: 500;
+          font-size: 32px;
+          line-height: 133%;
+          color: red;
+        }
+      }
+      p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #30444E;
+        width: 520px;
+
+        span{
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 150%;
+          color: red;
+          width: 520px;
+        }
+      }
+
+    }
+  }
+}
+
+
+

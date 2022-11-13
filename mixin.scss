@@ -1,0 +1,10 @@
+@mixin df{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@mixin se{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

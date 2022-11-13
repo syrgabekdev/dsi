@@ -17,6 +17,7 @@ body {
 }
 
 #block .block {
+  margin-bottom: 50px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -46,6 +47,22 @@ body {
   line-height: 150%;
   color: red;
   width: 520px;
+}
+
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 64px;
+  background: #EE4248;
+}
+#contact .contact h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */

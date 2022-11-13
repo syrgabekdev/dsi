@@ -5,6 +5,7 @@
 
 #block{
   .block{
+    margin-bottom: 50px;
     @include se;
     &--nav{
       h1{
@@ -35,6 +36,22 @@
         }
       }
 
+    }
+  }
+}
+
+#contact{
+  @include cen;
+  width: 1440px;
+  height: 64px;
+  background: #EE4248;
+  .contact{
+    h1{
+      text-align: center;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      color: #FFFFFF;
     }
   }
 }

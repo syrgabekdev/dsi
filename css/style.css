@@ -42,8 +42,51 @@ body {
   padding: 0 10px;
 }
 
+#hero .hero {
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#hero .hero--title h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 133.69%;
+  color: #1F2E35;
+  margin-bottom: 25px;
+}
+#hero .hero--title h1 span {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 133.69%;
+  color: #EE4248;
+}
+#hero .hero--title p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  margin-bottom: 25px;
+  color: #30444E;
+}
+#hero .hero--title button {
+  padding: 10px 30px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  background: #EE4248;
+  border: none;
+  color: #FFFFFF;
+}
+
 #block .block {
-  margin-bottom: 50px;
+  margin: 80px 0;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -129,7 +172,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1440px;
   height: 64px;
   background: #EE4248;
 }

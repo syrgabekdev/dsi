@@ -12,6 +12,9 @@ a {
   text-decoration: none;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
 
 #product .product--title {
   display: flex;
@@ -61,9 +64,6 @@ a {
 #product .product--block__block button:hover {
   background: aqua;
   color: red;
-
-body {
-  font-family: "Roboto", sans-serif;
 }
 
 #block .block {
@@ -96,7 +96,6 @@ body {
   line-height: 150%;
   color: red;
   width: 520px;
-
 }
 
 /*# sourceMappingURL=style.css.map */

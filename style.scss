@@ -1,7 +1,39 @@
 @import "mixin";
 @import "reset";
 
+#header{
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &--title{
+      display: flex;
+      align-items: center;
+      p{
+        padding: 0 15px;
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(31, 46, 53, 0.8);
+        &:hover{
+          color: blue;
+        }
+      }
+      select{
+        padding: 0 15px;
+        border: none;
+      }
+    }
+    &--icons{
+      img{
+        padding: 0 10px;
+      }
+    }
+  }
+}
 
+
+
+    #product {
 
 
 #block {
@@ -64,6 +96,23 @@
           }
         }
 
+
+        &--block {
+          margin: 50px 0;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+        }
+
+        &__block {
+          h1 {
+            margin: 10px 0;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 28px;
+            color: #EE4248;
+
+
         &--block {
           margin: 50px 0;
           display: flex;
@@ -107,6 +156,49 @@
               }
             }
           }
+
+
+          p {
+            margin: 20px 0;
+            width: 319px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            color: #30444E;
+
+          }
+
+          button {
+            margin: 5px 0;
+            border: none;
+            width: 119px;
+            height: 42px;
+            background: #EE4248;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+            border-radius: 4px;
+            color: azure;
+            cursor: pointer;
+
+            &:hover {
+              background: aqua;
+              color: red;
+            }
+          }
+        }
+
+      }}
+        #block {
+          .block {
+
+            @include se;
+
+            &--nav {
+              h1 {
+                font-weight: 500;
+                font-size: 32px;
+                color: #1F2E35;
+                margin-bottom: 20px;
+
         }
 
 
@@ -135,17 +227,59 @@
         color: #30444E;
         width: 520px;
 
-        span{
-          font-weight: 400;
-          font-size: 18px;
-          line-height: 150%;
-          color: red;
-          width: 520px;
+
+                span {
+                  font-weight: 500;
+                  font-size: 32px;
+                  line-height: 133%;
+                  color: red;
+                }
+              }
+
+
+              p {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 150%;
+                color: #30444E;
+                width: 520px;
+
+                span {
+                  font-weight: 400;
+                  font-size: 18px;
+                  line-height: 150%;
+                  color: red;
+                  width: 520px;
+
+
+                }
+              }
+
+            }
+
+          }
 
         }
-      }
 
-    }
+
+
+        #contact {
+          @include cen;
+          width: 1440px;
+          height: 64px;
+          background: #EE4248;
+
+          .contact {
+            h1 {
+              text-align: center;
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 21px;
+              color: #FFFFFF;
+            }
+
+
+          }
 
 }
 
@@ -192,8 +326,9 @@
     }
 
 
-  }
-}
+
+        }
+
 
 
 

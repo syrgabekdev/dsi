@@ -16,6 +16,31 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+#header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#header .header--title {
+  display: flex;
+  align-items: center;
+}
+#header .header--title p {
+  padding: 0 15px;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(31, 46, 53, 0.8);
+}
+#header .header--title p:hover {
+  color: blue;
+}
+#header .header--title select {
+  padding: 0 15px;
+  border: none;
+}
+#header .header--icons img {
+  padding: 0 10px;
+
 #block .block {
   display: flex;
   align-items: center;
@@ -67,14 +92,14 @@ body {
   align-items: center;
   justify-content: space-around;
 }
-#product .product--block__block h1 {
+#product .product__block h1 {
   margin: 10px 0;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 28px;
   color: #EE4248;
 }
-#product .product--block__block p {
+#product .product__block p {
   margin: 20px 0;
   width: 319px;
   font-family: "Roboto", sans-serif;
@@ -82,7 +107,7 @@ body {
   font-size: 18px;
   color: #30444E;
 }
-#product .product--block__block button {
+#product .product__block button {
   margin: 5px 0;
   border: none;
   width: 119px;
@@ -93,11 +118,12 @@ body {
   color: azure;
   cursor: pointer;
 }
-#product .product--block__block button:hover {
+#product .product__block button:hover {
   background: aqua;
   color: red;
 }
 
+#block .block {
 #contact {
   display: flex;
   align-items: center;
@@ -136,6 +162,9 @@ body {
 #center .center--block__dsi h1 {
   font-weight: 500;
   font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+
   color: #263238;
 }
 #center .center--block__dsi p {
@@ -158,4 +187,3 @@ body {
   color: #263238;
 }
 
-/*# sourceMappingURL=style.css.map */

@@ -4,7 +4,50 @@
 
 
 
-    #product {
+#block {
+  .block {
+
+    @include se;
+
+    &--nav {
+      h1 {
+        font-weight: 500;
+        font-size: 32px;
+        color: #1F2E35;
+        margin-bottom: 20px;
+
+        span {
+          font-weight: 500;
+          font-size: 32px;
+          line-height: 133%;
+          color: red;
+        }
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #30444E;
+        width: 520px;
+
+        span {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 150%;
+          color: red;
+          width: 520px;
+
+
+        }
+      }
+
+    }
+
+  }
+}
+
+#product {
       .product {
         &--title {
           display: flex;
@@ -26,92 +69,51 @@
           display: flex;
           align-items: center;
           justify-content: space-around;
-        }
 
-        &__block {
-          h1 {
-            margin: 10px 0;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 500;
-            font-size: 28px;
-            color: #EE4248;
+          &__block {
+            h1 {
+              margin: 10px 0;
+              font-family: 'Roboto', sans-serif;
+              font-weight: 500;
+              font-size: 28px;
+              color: #EE4248;
 
-          }
+            }
 
-          p {
-            margin: 20px 0;
-            width: 319px;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 400;
-            font-size: 18px;
-            color: #30444E;
+            p {
+              margin: 20px 0;
+              width: 319px;
+              font-family: 'Roboto', sans-serif;
+              font-weight: 400;
+              font-size: 18px;
+              color: #30444E;
 
-          }
+            }
 
-          button {
-            margin: 5px 0;
-            border: none;
-            width: 119px;
-            height: 42px;
-            background: #EE4248;
-            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
-            border-radius: 4px;
-            color: azure;
-            cursor: pointer;
+            button {
+              margin: 5px 0;
+              border: none;
+              width: 119px;
+              height: 42px;
+              background: #EE4248;
+              box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+              border-radius: 4px;
+              color: azure;
+              cursor: pointer;
 
-            &:hover {
-              background: aqua;
-              color: red;
+              &:hover {
+                background: aqua;
+                color: red;
+              }
             }
           }
         }
 
-      }}
-        #block {
-          .block {
 
-            @include se;
+      }
+    }
 
-            &--nav {
-              h1 {
-                font-weight: 500;
-                font-size: 32px;
-                color: #1F2E35;
-                margin-bottom: 20px;
-
-                span {
-                  font-weight: 500;
-                  font-size: 32px;
-                  line-height: 133%;
-                  color: red;
-                }
-              }
-
-              p {
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 150%;
-                color: #30444E;
-                width: 520px;
-
-                span {
-                  font-weight: 400;
-                  font-size: 18px;
-                  line-height: 150%;
-                  color: red;
-                  width: 520px;
-
-
-                }
-              }
-
-            }
-
-          }
-        }
-
-
-        #contact {
+#contact {
           @include cen;
           width: 1440px;
           height: 64px;
@@ -126,11 +128,72 @@
               color: #FFFFFF;
             }
 
+      p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #30444E;
+        width: 520px;
 
-          }
-
+        span{
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 150%;
+          color: red;
+          width: 520px;
 
         }
+      }
+
+    }
+
+}
+
+#center{
+  .center{
+    &--block{
+      margin: 20px 0;
+      display: flex;
+      align-items: center;
+      &__dsi{
+        h1{
+          font-weight: 500;
+          font-size: 18px;
+          color: #263238;
+        }
+        p{
+          width: 317px;
+          font-weight: 300;
+          font-size: 18px;
+
+
+          color: #263238;
+        }
+      }
+      &__contact{
+        h1{
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 28px;
+
+          color: #263238;
+
+        }
+        p{
+          width: 317px;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 149.19%;
+
+
+          color: #263238;
+        }
+      }
+    }
+
+
+  }
+}
 
 
 

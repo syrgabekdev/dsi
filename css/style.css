@@ -16,6 +16,32 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+#header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#header .header--title {
+  display: flex;
+  align-items: center;
+}
+#header .header--title p {
+  padding: 0 15px;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(31, 46, 53, 0.8);
+}
+#header .header--title p:hover {
+  color: blue;
+}
+#header .header--title select {
+  padding: 0 15px;
+  border: none;
+}
+#header .header--icons img {
+  padding: 0 10px;
+}
+
 #product .product--title {
   display: flex;
   align-items: center;

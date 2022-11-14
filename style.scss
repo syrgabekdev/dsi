@@ -1,7 +1,35 @@
 @import "mixin";
 @import "reset";
 
-
+#header{
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &--title{
+      display: flex;
+      align-items: center;
+      p{
+        padding: 0 15px;
+        font-weight: 400;
+        font-size: 18px;
+        color: rgba(31, 46, 53, 0.8);
+        &:hover{
+          color: blue;
+        }
+      }
+      select{
+        padding: 0 15px;
+        border: none;
+      }
+    }
+    &--icons{
+      img{
+        padding: 0 10px;
+      }
+    }
+  }
+}
 
 
     #product {

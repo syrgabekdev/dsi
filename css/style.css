@@ -40,8 +40,53 @@ body {
 }
 #header .header--icons img {
   padding: 0 10px;
+}
+
+#hero .hero {
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#hero .hero--title h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 133.69%;
+  color: #1F2E35;
+  margin-bottom: 25px;
+}
+#hero .hero--title h1 span {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 133.69%;
+  color: #EE4248;
+}
+#hero .hero--title p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  margin-bottom: 25px;
+  color: #30444E;
+}
+#hero .hero--title button {
+  padding: 10px 30px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  background: #EE4248;
+  border: none;
+  color: #FFFFFF;
+}
 
 #block .block {
+  margin: 80px 0;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -92,14 +137,14 @@ body {
   align-items: center;
   justify-content: space-around;
 }
-#product .product__block h1 {
+#product .product--block__block h1 {
   margin: 10px 0;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 28px;
   color: #EE4248;
 }
-#product .product__block p {
+#product .product--block__block p {
   margin: 20px 0;
   width: 319px;
   font-family: "Roboto", sans-serif;
@@ -107,7 +152,7 @@ body {
   font-size: 18px;
   color: #30444E;
 }
-#product .product__block button {
+#product .product--block__block button {
   margin: 5px 0;
   border: none;
   width: 119px;
@@ -118,17 +163,15 @@ body {
   color: azure;
   cursor: pointer;
 }
-#product .product__block button:hover {
+#product .product--block__block button:hover {
   background: aqua;
   color: red;
 }
 
-#block .block {
 #contact {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1440px;
   height: 64px;
   background: #EE4248;
 }
@@ -147,11 +190,10 @@ body {
   width: 520px;
 }
 #contact .contact p span {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 150%;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 133%;
   color: red;
-  width: 520px;
 }
 
 #center .center--block {
@@ -162,9 +204,6 @@ body {
 #center .center--block__dsi h1 {
   font-weight: 500;
   font-size: 18px;
-  line-height: 21px;
-  color: #FFFFFF;
-
   color: #263238;
 }
 #center .center--block__dsi p {
@@ -187,3 +226,4 @@ body {
   color: #263238;
 }
 
+/*# sourceMappingURL=style.css.map */
